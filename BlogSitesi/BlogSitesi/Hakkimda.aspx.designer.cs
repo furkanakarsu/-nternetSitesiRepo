@@ -33,13 +33,13 @@ namespace BlogSitesi
         protected global::System.Web.UI.WebControls.Label Label1;
 
         /// <summary>
-        /// TextBox1 control.
+        /// txtAd control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox1;
+        protected global::System.Web.UI.WebControls.TextBox txtAd;
 
         /// <summary>
         /// Label2 control.
@@ -51,13 +51,13 @@ namespace BlogSitesi
         protected global::System.Web.UI.WebControls.Label Label2;
 
         /// <summary>
-        /// TextBox2 control.
+        /// txtSoyad control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox2;
+        protected global::System.Web.UI.WebControls.TextBox txtSoyad;
 
         /// <summary>
         /// Label3 control.
@@ -69,13 +69,13 @@ namespace BlogSitesi
         protected global::System.Web.UI.WebControls.Label Label3;
 
         /// <summary>
-        /// TextBox3 control.
+        /// txtAdres control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox3;
+        protected global::System.Web.UI.WebControls.TextBox txtAdres;
 
         /// <summary>
         /// Label4 control.
@@ -87,13 +87,13 @@ namespace BlogSitesi
         protected global::System.Web.UI.WebControls.Label Label4;
 
         /// <summary>
-        /// TextBox4 control.
+        /// txtMail control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox4;
+        protected global::System.Web.UI.WebControls.TextBox txtMail;
 
         /// <summary>
         /// Label5 control.
@@ -105,13 +105,13 @@ namespace BlogSitesi
         protected global::System.Web.UI.WebControls.Label Label5;
 
         /// <summary>
-        /// TextBox5 control.
+        /// txtTelefon control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox5;
+        protected global::System.Web.UI.WebControls.TextBox txtTelefon;
 
         /// <summary>
         /// Label6 control.
@@ -123,13 +123,13 @@ namespace BlogSitesi
         protected global::System.Web.UI.WebControls.Label Label6;
 
         /// <summary>
-        /// TextBox6 control.
+        /// txtKisaNot control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox6;
+        protected global::System.Web.UI.WebControls.TextBox txtKisaNot;
 
         /// <summary>
         /// Label7 control.
@@ -141,13 +141,13 @@ namespace BlogSitesi
         protected global::System.Web.UI.WebControls.Label Label7;
 
         /// <summary>
-        /// TextBox7 control.
+        /// txtResim control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox7;
+        protected global::System.Web.UI.WebControls.TextBox txtResim;
 
         /// <summary>
         /// Button1 control.

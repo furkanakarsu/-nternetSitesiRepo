@@ -87,7 +87,7 @@
                       <asp:Label ID="Label5" runat="server" Text='<%# Eval("Mail") %>'></asp:Label>
                         </div>
                         <p class="lead mb-5">
-                            <asp:Label ID="Label6" runat="server" Text='<%# Eval("KısaNot") %>'></asp:Label>
+                            <asp:Label ID="Label6" runat="server" Text='<%# Eval("KisaNot") %>'></asp:Label>
                         </p>
                         <div class="social-icons">
                             <a href="https://www.linkedin.com/in/furkan-akarsu-8071b11b6/"target="_blank">

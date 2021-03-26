@@ -466,7 +466,7 @@ namespace BlogSitesi {
             
             private global::System.Data.DataColumn columnTelefon;
             
-            private global::System.Data.DataColumn columnKısaNot;
+            private global::System.Data.DataColumn columnKisaNot;
             
             private global::System.Data.DataColumn columnFotograf;
             
@@ -553,9 +553,9 @@ namespace BlogSitesi {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public global::System.Data.DataColumn KısaNotColumn {
+            public global::System.Data.DataColumn KisaNotColumn {
                 get {
-                    return this.columnKısaNot;
+                    return this.columnKisaNot;
                 }
             }
             
@@ -604,7 +604,7 @@ namespace BlogSitesi {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public HAKKIMDARow AddHAKKIMDARow(string Ad, string Soyad, string Adres, string Mail, string Telefon, string KısaNot, string Fotograf) {
+            public HAKKIMDARow AddHAKKIMDARow(string Ad, string Soyad, string Adres, string Mail, string Telefon, string KisaNot, string Fotograf) {
                 HAKKIMDARow rowHAKKIMDARow = ((HAKKIMDARow)(this.NewRow()));
                 object[] columnValuesArray = new object[] {
                         null,
@@ -613,7 +613,7 @@ namespace BlogSitesi {
                         Adres,
                         Mail,
                         Telefon,
-                        KısaNot,
+                        KisaNot,
                         Fotograf};
                 rowHAKKIMDARow.ItemArray = columnValuesArray;
                 this.Rows.Add(rowHAKKIMDARow);
@@ -643,7 +643,7 @@ namespace BlogSitesi {
                 this.columnAdres = base.Columns["Adres"];
                 this.columnMail = base.Columns["Mail"];
                 this.columnTelefon = base.Columns["Telefon"];
-                this.columnKısaNot = base.Columns["KısaNot"];
+                this.columnKisaNot = base.Columns["KisaNot"];
                 this.columnFotograf = base.Columns["Fotograf"];
             }
             
@@ -662,8 +662,8 @@ namespace BlogSitesi {
                 base.Columns.Add(this.columnMail);
                 this.columnTelefon = new global::System.Data.DataColumn("Telefon", typeof(string), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnTelefon);
-                this.columnKısaNot = new global::System.Data.DataColumn("KısaNot", typeof(string), null, global::System.Data.MappingType.Element);
-                base.Columns.Add(this.columnKısaNot);
+                this.columnKisaNot = new global::System.Data.DataColumn("KisaNot", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnKisaNot);
                 this.columnFotograf = new global::System.Data.DataColumn("Fotograf", typeof(string), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnFotograf);
                 this.columnID.AutoIncrement = true;
@@ -676,7 +676,7 @@ namespace BlogSitesi {
                 this.columnAdres.MaxLength = 150;
                 this.columnMail.MaxLength = 50;
                 this.columnTelefon.MaxLength = 20;
-                this.columnKısaNot.MaxLength = 1000;
+                this.columnKisaNot.MaxLength = 1000;
                 this.columnFotograf.MaxLength = 2147483647;
             }
             
@@ -2351,17 +2351,17 @@ namespace BlogSitesi {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public string KısaNot {
+            public string KisaNot {
                 get {
                     try {
-                        return ((string)(this[this.tableHAKKIMDA.KısaNotColumn]));
+                        return ((string)(this[this.tableHAKKIMDA.KisaNotColumn]));
                     }
                     catch (global::System.InvalidCastException e) {
-                        throw new global::System.Data.StrongTypingException("The value for column \'KısaNot\' in table \'HAKKIMDA\' is DBNull.", e);
+                        throw new global::System.Data.StrongTypingException("The value for column \'KisaNot\' in table \'HAKKIMDA\' is DBNull.", e);
                     }
                 }
                 set {
-                    this[this.tableHAKKIMDA.KısaNotColumn] = value;
+                    this[this.tableHAKKIMDA.KisaNotColumn] = value;
                 }
             }
             
@@ -2443,14 +2443,14 @@ namespace BlogSitesi {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public bool IsKısaNotNull() {
-                return this.IsNull(this.tableHAKKIMDA.KısaNotColumn);
+            public bool IsKisaNotNull() {
+                return this.IsNull(this.tableHAKKIMDA.KisaNotColumn);
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public void SetKısaNotNull() {
-                this[this.tableHAKKIMDA.KısaNotColumn] = global::System.Convert.DBNull;
+            public void SetKisaNotNull() {
+                this[this.tableHAKKIMDA.KisaNotColumn] = global::System.Convert.DBNull;
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -3267,20 +3267,21 @@ namespace BlogSitesi.DataSet1TableAdapters {
             tableMapping.ColumnMappings.Add("Adres", "Adres");
             tableMapping.ColumnMappings.Add("Mail", "Mail");
             tableMapping.ColumnMappings.Add("Telefon", "Telefon");
-            tableMapping.ColumnMappings.Add("KısaNot", "KısaNot");
+            tableMapping.ColumnMappings.Add("KısaNot", "KisaNot");
             tableMapping.ColumnMappings.Add("Fotograf", "Fotograf");
+            tableMapping.ColumnMappings.Add("KisaNot", "KisaNot");
             this._adapter.TableMappings.Add(tableMapping);
             this._adapter.InsertCommand = new global::System.Data.SqlClient.SqlCommand();
             this._adapter.InsertCommand.Connection = this.Connection;
-            this._adapter.InsertCommand.CommandText = "INSERT INTO [HAKKIMDA] ([Ad], [Soyad], [Adres], [Mail], [Telefon], [KısaNot], [Fo" +
-                "tograf]) VALUES (@Ad, @Soyad, @Adres, @Mail, @Telefon, @KısaNot, @Fotograf)";
+            this._adapter.InsertCommand.CommandText = "INSERT INTO [HAKKIMDA] ([Ad], [Soyad], [Adres], [Mail], [Telefon], [KisaNot], [Fo" +
+                "tograf]) VALUES (@Ad, @Soyad, @Adres, @Mail, @Telefon, @KisaNot, @Fotograf)";
             this._adapter.InsertCommand.CommandType = global::System.Data.CommandType.Text;
             this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Ad", global::System.Data.SqlDbType.VarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "Ad", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Soyad", global::System.Data.SqlDbType.VarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "Soyad", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Adres", global::System.Data.SqlDbType.VarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "Adres", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Mail", global::System.Data.SqlDbType.VarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "Mail", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Telefon", global::System.Data.SqlDbType.VarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "Telefon", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
-            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@KısaNot", global::System.Data.SqlDbType.VarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "KısaNot", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@KisaNot", global::System.Data.SqlDbType.VarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "KisaNot", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Fotograf", global::System.Data.SqlDbType.VarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "Fotograf", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
         }
         
@@ -3294,11 +3295,23 @@ namespace BlogSitesi.DataSet1TableAdapters {
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         private void InitCommandCollection() {
-            this._commandCollection = new global::System.Data.SqlClient.SqlCommand[1];
+            this._commandCollection = new global::System.Data.SqlClient.SqlCommand[2];
             this._commandCollection[0] = new global::System.Data.SqlClient.SqlCommand();
             this._commandCollection[0].Connection = this.Connection;
-            this._commandCollection[0].CommandText = "SELECT ID, Ad, Soyad, Adres, Mail, Telefon, KısaNot, Fotograf\r\nFROM     HAKKIMDA";
+            this._commandCollection[0].CommandText = "SELECT ID, Ad, Soyad, Adres, Mail, Telefon, KisaNot, Fotograf\r\nFROM     HAKKIMDA";
             this._commandCollection[0].CommandType = global::System.Data.CommandType.Text;
+            this._commandCollection[1] = new global::System.Data.SqlClient.SqlCommand();
+            this._commandCollection[1].Connection = this.Connection;
+            this._commandCollection[1].CommandText = "UPDATE HAKKIMDA set Ad=@Ad,Soyad=@Soyad,Adres=@Adres,Mail=@Mail,Telefon=@Telefon," +
+                "KisaNot=@KisaNot,Fotograf=@Fotograf";
+            this._commandCollection[1].CommandType = global::System.Data.CommandType.Text;
+            this._commandCollection[1].Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Ad", global::System.Data.SqlDbType.VarChar, 30, global::System.Data.ParameterDirection.Input, 0, 0, "Ad", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._commandCollection[1].Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Soyad", global::System.Data.SqlDbType.VarChar, 30, global::System.Data.ParameterDirection.Input, 0, 0, "Soyad", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._commandCollection[1].Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Adres", global::System.Data.SqlDbType.VarChar, 150, global::System.Data.ParameterDirection.Input, 0, 0, "Adres", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._commandCollection[1].Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Mail", global::System.Data.SqlDbType.VarChar, 50, global::System.Data.ParameterDirection.Input, 0, 0, "Mail", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._commandCollection[1].Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Telefon", global::System.Data.SqlDbType.VarChar, 20, global::System.Data.ParameterDirection.Input, 0, 0, "Telefon", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._commandCollection[1].Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@KisaNot", global::System.Data.SqlDbType.VarChar, 1000, global::System.Data.ParameterDirection.Input, 0, 0, "KisaNot", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._commandCollection[1].Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Fotograf", global::System.Data.SqlDbType.VarChar, 2147483647, global::System.Data.ParameterDirection.Input, 0, 0, "Fotograf", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -3358,7 +3371,7 @@ namespace BlogSitesi.DataSet1TableAdapters {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Insert, true)]
-        public virtual int Insert(string Ad, string Soyad, string Adres, string Mail, string Telefon, string KısaNot, string Fotograf) {
+        public virtual int Insert(string Ad, string Soyad, string Adres, string Mail, string Telefon, string KisaNot, string Fotograf) {
             if ((Ad == null)) {
                 this.Adapter.InsertCommand.Parameters[0].Value = global::System.DBNull.Value;
             }
@@ -3389,11 +3402,11 @@ namespace BlogSitesi.DataSet1TableAdapters {
             else {
                 this.Adapter.InsertCommand.Parameters[4].Value = ((string)(Telefon));
             }
-            if ((KısaNot == null)) {
+            if ((KisaNot == null)) {
                 this.Adapter.InsertCommand.Parameters[5].Value = global::System.DBNull.Value;
             }
             else {
-                this.Adapter.InsertCommand.Parameters[5].Value = ((string)(KısaNot));
+                this.Adapter.InsertCommand.Parameters[5].Value = ((string)(KisaNot));
             }
             if ((Fotograf == null)) {
                 this.Adapter.InsertCommand.Parameters[6].Value = global::System.DBNull.Value;
@@ -3415,6 +3428,71 @@ namespace BlogSitesi.DataSet1TableAdapters {
                     this.Adapter.InsertCommand.Connection.Close();
                 }
             }
+        }
+        
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+        [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
+        [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Update, false)]
+        public virtual int HakkımdaGuncelle(string Ad, string Soyad, string Adres, string Mail, string Telefon, string KisaNot, string Fotograf) {
+            global::System.Data.SqlClient.SqlCommand command = this.CommandCollection[1];
+            if ((Ad == null)) {
+                command.Parameters[0].Value = global::System.DBNull.Value;
+            }
+            else {
+                command.Parameters[0].Value = ((string)(Ad));
+            }
+            if ((Soyad == null)) {
+                command.Parameters[1].Value = global::System.DBNull.Value;
+            }
+            else {
+                command.Parameters[1].Value = ((string)(Soyad));
+            }
+            if ((Adres == null)) {
+                command.Parameters[2].Value = global::System.DBNull.Value;
+            }
+            else {
+                command.Parameters[2].Value = ((string)(Adres));
+            }
+            if ((Mail == null)) {
+                command.Parameters[3].Value = global::System.DBNull.Value;
+            }
+            else {
+                command.Parameters[3].Value = ((string)(Mail));
+            }
+            if ((Telefon == null)) {
+                command.Parameters[4].Value = global::System.DBNull.Value;
+            }
+            else {
+                command.Parameters[4].Value = ((string)(Telefon));
+            }
+            if ((KisaNot == null)) {
+                command.Parameters[5].Value = global::System.DBNull.Value;
+            }
+            else {
+                command.Parameters[5].Value = ((string)(KisaNot));
+            }
+            if ((Fotograf == null)) {
+                command.Parameters[6].Value = global::System.DBNull.Value;
+            }
+            else {
+                command.Parameters[6].Value = ((string)(Fotograf));
+            }
+            global::System.Data.ConnectionState previousConnectionState = command.Connection.State;
+            if (((command.Connection.State & global::System.Data.ConnectionState.Open) 
+                        != global::System.Data.ConnectionState.Open)) {
+                command.Connection.Open();
+            }
+            int returnValue;
+            try {
+                returnValue = command.ExecuteNonQuery();
+            }
+            finally {
+                if ((previousConnectionState == global::System.Data.ConnectionState.Closed)) {
+                    command.Connection.Close();
+                }
+            }
+            return returnValue;
         }
     }
     
