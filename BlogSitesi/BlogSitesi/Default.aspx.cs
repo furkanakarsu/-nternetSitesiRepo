@@ -15,9 +15,26 @@ namespace BlogSitesi
             Repeater1.DataSource = dt.HakkımdaListele();
             Repeater1.DataBind();
 
+
             DataSet1TableAdapters.DENEYIMTableAdapter dt1 = new DataSet1TableAdapters.DENEYIMTableAdapter();
             Repeater2.DataSource = dt1.DeneyimListele();
             Repeater2.DataBind();
+
+            DataSet1TableAdapters.EGITIMTableAdapter dt2 = new DataSet1TableAdapters.EGITIMTableAdapter();
+            Repeater3.DataSource = dt2.EgitimListesi();
+            Repeater3.DataBind();
+
+            DataSet1TableAdapters.YETENEKLERTableAdapter dt3 = new DataSet1TableAdapters.YETENEKLERTableAdapter();
+            Repeater4.DataSource = dt3.YetenekListele();
+            Repeater4.DataBind();
+
+            DataSet1TableAdapters.HOBILERTableAdapter dt4 = new DataSet1TableAdapters.HOBILERTableAdapter();
+            Repeater5.DataSource = dt4.HobiListesi();
+            Repeater5.DataBind();
+
+            DataSet1TableAdapters.KONFERANSTableAdapter dt5 = new DataSet1TableAdapters.KONFERANSTableAdapter();
+            Repeater6.DataSource = dt5.KonferansListele();
+            Repeater6.DataBind();
         }
     }
 }

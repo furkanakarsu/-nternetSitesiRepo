@@ -71,6 +71,7 @@
     <Content Include="Dosyalar\css\resume.css" />
     <Content Include="Dosyalar\css\resume.min.css" />
     <Content Include="Dosyalar\gulpfile.js" />
+    <Content Include="Dosyalar\img\FurkanResim.jpg" />
     <Content Include="Dosyalar\img\profile.jpg" />
     <Content Include="Dosyalar\index.html" />
     <Content Include="Dosyalar\js\resume.js" />
@@ -1473,6 +1474,9 @@
     <Content Include="Default.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DataSet1.cs">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </Compile>
     <Compile Include="DataSet1.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
