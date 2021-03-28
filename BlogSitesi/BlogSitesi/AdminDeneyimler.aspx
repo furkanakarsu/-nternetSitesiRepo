@@ -24,7 +24,6 @@
                         <td>
                             <asp:HyperLink NavigateUrl='<%# "AdminDeneyimSil.Aspx?ID="+ Eval("ID") %>' ID="btnSil" runat="server" CssClass="btn btn-danger">Sil</asp:HyperLink>
                             <asp:HyperLink NavigateUrl='<%# "AdminDeneyimGuncelle.aspx?ID=" + Eval("ID") %>' ID="btnGuncelle" runat="server" CssClass="btn btn-warning">Güncelle</asp:HyperLink></td>
-
                     </tr>
                 </ItemTemplate>
             </asp:Repeater>
