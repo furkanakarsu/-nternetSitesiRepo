@@ -11,7 +11,10 @@ namespace BlogSitesi
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            int id = Convert.ToInt32(Request.QueryString["ID"]);
+            DataSet1TableAdapters.EGITIMTableAdapter dt = new DataSet1TableAdapters.EGITIMTableAdapter();
+            dt.EgitimSil(Convert.ToInt32(id));
+            Response.Redirect("AdminEgitimler.aspx");
         }
     }
 }
