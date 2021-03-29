@@ -33,7 +33,7 @@
             </asp:Repeater>
         </tbody>
     </table>
-         <asp:HyperLink NavigateUrl="~/AdminDeneyimEkle.aspx" ID="HyperLink1" runat="server" CssClass="btn btn-info">Eğitim Ekle</asp:HyperLink>
+         <asp:HyperLink NavigateUrl="~/AdminEgitimEkle.aspx" ID="HyperLink1" runat="server" CssClass="btn btn-info">Eğitim Ekle</asp:HyperLink>
          </form>
 
 </asp:Content>
