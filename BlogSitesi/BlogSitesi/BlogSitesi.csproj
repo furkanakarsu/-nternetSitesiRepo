@@ -67,6 +67,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="AdminDeneyimEkle.aspx" />
     <Content Include="AdminDeneyimler.aspx" />
     <Content Include="AdminDosyalar\bootstrap-3.3.7\.gitattributes" />
     <Content Include="AdminDosyalar\bootstrap-3.3.7\.gitignore" />
@@ -335,6 +336,7 @@
     <Content Include="AdminDosyalar\sidebar\style4.css" />
     <Content Include="AdminDosyalar\sidebar\style5.css" />
     <Content Include="AdminDosyalar\StyleSheet2.css" />
+    <Content Include="AdminDeneyimSil.aspx" />
     <Content Include="Dosyalar\.gitignore" />
     <Content Include="Dosyalar\css\resume.css" />
     <Content Include="Dosyalar\css\resume.min.css" />
@@ -1750,6 +1752,13 @@
     <Compile Include="Admin.Master.designer.cs">
       <DependentUpon>Admin.Master</DependentUpon>
     </Compile>
+    <Compile Include="AdminDeneyimEkle.aspx.cs">
+      <DependentUpon>AdminDeneyimEkle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminDeneyimEkle.aspx.designer.cs">
+      <DependentUpon>AdminDeneyimEkle.aspx</DependentUpon>
+    </Compile>
     <Compile Include="AdminDeneyimler.aspx.cs">
       <DependentUpon>AdminDeneyimler.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -1764,6 +1773,13 @@
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>DataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="AdminDeneyimSil.aspx.cs">
+      <DependentUpon>AdminDeneyimSil.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminDeneyimSil.aspx.designer.cs">
+      <DependentUpon>AdminDeneyimSil.aspx</DependentUpon>
     </Compile>
     <Compile Include="Hakkimda.aspx.cs">
       <DependentUpon>Hakkimda.aspx</DependentUpon>
