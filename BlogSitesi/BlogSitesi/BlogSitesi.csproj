@@ -339,6 +339,7 @@
     <Content Include="AdminDosyalar\StyleSheet2.css" />
     <Content Include="AdminDeneyimSil.aspx" />
     <Content Include="AdminEgitimEkle.aspx" />
+    <Content Include="AdminEgitimGuncelle.aspx" />
     <Content Include="AdminEgitimler.aspx" />
     <Content Include="AdminEgitimSil.aspx" />
     <Content Include="Dosyalar\.gitignore" />
@@ -1784,6 +1785,13 @@
     </Compile>
     <Compile Include="AdminEgitimEkle.aspx.designer.cs">
       <DependentUpon>AdminEgitimEkle.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminEgitimGuncelle.aspx.cs">
+      <DependentUpon>AdminEgitimGuncelle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminEgitimGuncelle.aspx.designer.cs">
+      <DependentUpon>AdminEgitimGuncelle.aspx</DependentUpon>
     </Compile>
     <Compile Include="AdminEgitimler.aspx.cs">
       <DependentUpon>AdminEgitimler.aspx</DependentUpon>
