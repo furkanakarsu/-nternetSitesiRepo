@@ -1742,6 +1742,7 @@
     <Content Include="Dosyalar\vendor\jquery\jquery.slim.js" />
     <Content Include="Dosyalar\vendor\jquery\jquery.slim.min.js" />
     <Content Include="Hakkimda.aspx" />
+    <Content Include="Test.css" />
     <Content Include="Web.config" />
     <Content Include="Default.aspx" />
   </ItemGroup>

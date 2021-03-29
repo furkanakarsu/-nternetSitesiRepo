@@ -17,7 +17,7 @@
     <%--<link href="AdminDosyalar/bootstrap.min.css" rel="stylesheet" />--%>
     <link href="AdminDosyalar/bootstrap-3.3.7/dist/css/bootstrap.min.css" rel="stylesheet" />
     <!-- Our Custom CSS -->
-    <link href="AdminDosyalar/StyleSheet2.css" rel="stylesheet" />
+    <link href="Test.css" rel="stylesheet" />
 
     <!-- Font Awesome JS -->
     <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
@@ -36,7 +36,7 @@
             </div>
 
             <ul class="list-unstyled components">
-                <li class="active">
+                <li>
                     <a href="Hakkimda.aspx">
                         <i class="glyphicon glyphicon-home"></i>
                         Hakkımda
