@@ -48,7 +48,7 @@
                         <i class="glyphicon glyphicon-briefcase"></i>
                         Deneyimlerim
                     </a>
-                    <a href="#pageSubmenu">
+                    <a href="AdminEgitimler.aspx">
                         <i class="glyphicon glyphicon-education"></i>
                      Eğitim Hayatım
                     </a>
